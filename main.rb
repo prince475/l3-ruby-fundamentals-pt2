@@ -6,16 +6,16 @@ counter = 10
 score = 'A'
 # CONDITIONAL STATEMENTS
 # 1.0 if - else
-# def check_age(age)
-#   if age < 18
-#     puts 'You are not old enough'
-#   elsif age > 50
-#     puts 'you are old enough, but stay at home'
-#   else
-#     puts 'Get in'
+def check_age(age)
+  if age < 18
+    puts 'You are not old enough'
+  elsif age > 50
+    puts 'you are old enough, but stay at home'
+  else
+    puts 'Get in'
 
-#   end
-# end
+  end
+end
 # check_age(17)
 
 message = if age < 18
